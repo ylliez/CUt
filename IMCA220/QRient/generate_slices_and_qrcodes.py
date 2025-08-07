@@ -5,8 +5,8 @@ import codecs
 import qrcode
 
 # ====== CONFIG =======
-BASE_URL = "https://ylliez.github.io/CUt/IMCA220/QRient/"  # Change this!
-OUTPUT_DIR = "./output"  # Where HTML and QR codes will be saved
+BASE_URL = "https://ylliez.github.io/CUt/IMCA220/QRient/steps/"  # Change this!
+OUTPUT_DIR = "./steps"  # Where HTML and QR codes will be saved
 SLICE_IMAGE_PATH = "../slices/slice_{}.png"  # path to slice images in HTML
 
 NUM_SLICES = 8
