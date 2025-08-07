@@ -16,4 +16,4 @@ document.getElementById('resetBtn').addEventListener('click', () => {
         localStorage.removeItem(`slice${i}`);
     }
     location.reload();
-}); s
+});
