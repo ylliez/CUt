@@ -10,3 +10,10 @@ for (let i = 1; i <= totalSlices; i++) {
         cell.style.backgroundColor = '#999';
     }
 }
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+    for (let i = 1; i <= totalSlices; i++) {
+        localStorage.removeItem(`slice${i}`);
+    }
+    location.reload();
+}); s

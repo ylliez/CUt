@@ -19,3 +19,20 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+#resetBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+#resetBtn:hover {
+    opacity: 1;
+}
