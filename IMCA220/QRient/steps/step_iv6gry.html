@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Piece Unlocked!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    img {
+      max-width: 90vw;
+      height: auto;
+      margin-top: 1rem;
+      border: 2px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>You&apos;ve unlocked piece #1!</h1>
+  <img src="../slices/slice_1.png" alt="Unlocked slice 1" />
+  <script>
+    localStorage.setItem("slice1", "true");
+    setTimeout(function () {
+      window.location.href = "../index.html";
+    }, 5000);
+  </script>
+</body>
+</html>
