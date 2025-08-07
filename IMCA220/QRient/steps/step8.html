@@ -3,15 +3,37 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Unlock Slice 8</title>
-  <script>
-    localStorage.setItem('slice8', 'true'); // Replace X with actual number
-    window.location.href = '../index.html';
-  </script>
+  <title>Piece Unlocked!</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+    }
+
+    img {
+      margin-top: 1em;
+      max-width: 80%;
+      height: auto;
+      border: 2px solid #444;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
 
 <body>
-  <p>Redirecting...</p>
+  <h1>🎉 You’ve unlocked a piece!</h1>
+  <p>Take a moment to appreciate it...</p>
+
+  <img src="../slices/slice_8.jpg" alt="Unlocked slice 8" />
+
+  <script>
+    localStorage.setItem("slice8", "true");
+
+    setTimeout(function () {
+      window.location.href = "../index.html";
+    }, 5000);
+  </script>
 </body>
 
 </html>
